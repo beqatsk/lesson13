@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+.container{
+    max-width: 1207px;
+    width: 100%;
+    margin: 0 auto;
+    background: #F6F6F6;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* section header */
+
+.header-wrapper{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.header-logo{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.logo{
+    font-weight: 500;
+    font-size: 20px;
+    color: #0B132A;
+}
+.nav-list,a{
+    display: flex;
+    column-gap: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4f5563;
+}
+.header-btn{
+    width: 150px;
+    height: 45px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 13px 44px;
+    border: 1px solid #F53855;
+    color: #F53855;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.header-btn:hover{
+    background-color: #F53855;
+    color: #F6F6F6;
+}
+
+/* section about*/
+
+.section-title{
+    display: flex;
+    column-gap: 40px;
+    margin-top: 101px; 
+}
+
+h1{
+    width: 555px;
+    height: 140px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+}
+span{
+    font-weight: 700;
+    font-size: 60px;
+}
+.section-text{
+    width: 555px;
+    height: 60px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.section-btn{
+    width: 250px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #F53855; 
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 17.5px 77.5px; 
+    cursor: pointer;
+    transition: all 1s;
+}
+.section-btn:hover{
+    background-color: #b91830;
+}
+.burger-menu{
+    display: none;
+}
+/* section title */
+
+.content{
+    display: flex;
+    margin-top: 103px;
+}
+.title-section{
+    display: flex;
+    align-items: center;
+    column-gap: 36px;
+    margin-left: 91px;
+}
+.title-wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.title-text{
+    color: #0B132A;
+    font-weight: 700;
+    font-size: 25px;
+}
+.title-text1{
+    font-weight: 400;
+    font-size: 20px;
+    color: #4F5665;
+}
+.title-line{
+    width: 0px;
+    height: 125px;
+    border: 2px solid #d1d6e5;
+    margin-left: 100px;
+}
+
+/* section3 features*/
+
+.section-features{
+    margin-top: 150px;
+    display: flex;
+    column-gap: 169px;
+}
+.features-wrapper{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+h2{
+    width: 383px;
+    height: 100px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+}
+.features-text{
+    width: 427px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.features-title{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.features-paragraph{
+    font-weight: 400;
+    font-size: 14px;
+    color: #4F5665;
+}
+/* section pricing */
+
+.wrapper-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h3{
+    width: 383px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 35px;  
+    color: #0B132A;
+    margin-left: 412px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.pricing-text{
+    width: 555px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-left: 326px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.pricing-card{
+    width:330px ;
+    height: 760px;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 79px  90px 50px;
+}
+h5{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #0B132A;
+    margin-top: 30px;
+}
+.pricing-card-text{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.card-image{
+    width: 13px;
+    height: 9px; 
+}
+.card-text{
+    width: 136px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 11px;
+    color: #4F5665;
+    padding-top: 8px;
+}
+.card-title{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 30px;
+}
+h4{
+    font-weight: 500;
+    font-size: 25px;
+    color: #0B132A;
+    margin-bottom: 20px;
+    text-align: center;
+} 
+.first{
+    margin-top: 130px;
+}
+.two{
+    margin-top: 90px;
+}
+.three{
+    margin-top: 50px;
+}
+.pricing-btn{
+    width: 145px;
+    height: 45px;
+    color: #F53838;
+    border: 1px solid #F53838;
+    font-weight: 700;
+    font-size: 16px;
+    text-align:center;
+    padding-top: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.pricing-btn:hover{
+    background-color: #F53838;
+    color: #F6F6F6;
+
+}
+
+/* section testimonials */
+
+.testimonials-title{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h6{
+    width: 383px;
+    height: 100px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+    text-align: center;
+}
+.testimonials-text{
+    width: 555px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    text-align: center;
+}
+.testimonials-img{
+    margin: 50px 70px;
+}
+.testimonials-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+}
+.testimonials-photo{
+    width: 150px;
+    height: 60px;
+}
+.testimonials-photos{
+    width: 150px;
+    height: 60px;
+}
+
+/* section footer */
+
+footer{
+    display: flex;
+    column-gap: 100px;
+    width: 100%;
+    height: 300px;
+    padding:  50px;
+}
+.footer-title{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.footer-text{
+    width: 340px;
+    height: 61px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 16px;
+    color: #4F5665;
+}
+.number{
+    font-weight: 500;
+    font-size: 18px;
+    color: #0B132A;
+}
+.fixty{
+    width: 70px;
+    height: 70px;
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 20px;
+}
